@@ -7,6 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2543B72422ADA32A008DC421 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A12CD51451231B00C1D980 /* CFNetwork.framework */; };
+		2543B7A422B2E646008DC421 /* SocketRocket.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2543B7A122B2E646008DC421 /* SocketRocket.h */; };
+		2543B7A922B2E707008DC421 /* SRSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 454FEA831D25717C00073768 /* SRSecurityPolicy.m */; };
+		2543B7AA22B2E713008DC421 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A12CD0145119B700C1D980 /* SRWebSocket.m */; };
+		2543B7AB22B2E723008DC421 /* NSRunLoop+SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CD05FC1CEEC65D00497F47 /* NSRunLoop+SRWebSocket.m */; };
+		2543B7AC22B2E75D008DC421 /* SRPinningSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 454FEA7A1D2570D400073768 /* SRPinningSecurityPolicy.m */; };
+		2543B7AD22B2E768008DC421 /* SRProxyConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4861E7741D022211002FAB1D /* SRProxyConnect.m */; };
+		2543B7AE22B2E774008DC421 /* SRDelegateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817995851CE139700084DA37 /* SRDelegateController.m */; };
+		2543B7AF22B2E782008DC421 /* SRIOConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B31C101CDC404100D86D43 /* SRIOConsumer.m */; };
+		2543B7B022B2E7A3008DC421 /* SRURLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B22EE31CE43ECC0073C636 /* SRURLUtilities.m */; };
+		2543B7B122B2E7AC008DC421 /* SRIOConsumerPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B31C121CDC404100D86D43 /* SRIOConsumerPool.m */; };
+		2543B7B222B2E7B6008DC421 /* SRRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C22BF71D1256E1007BFDDF /* SRRandom.m */; };
+		2543B7B322B2E7BE008DC421 /* SRLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 81900A4B1D18C9CC0015A290 /* SRLog.m */; };
+		2543B7B422B2E7C3008DC421 /* SRMutex.m in Sources */ = {isa = PBXBuildFile; fileRef = 817491A71D1C8C33006E09DF /* SRMutex.m */; };
+		2543B7B522B2E7CA008DC421 /* SRHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B31C2C1CDC406B00D86D43 /* SRHash.m */; };
+		2543B7B622B2E7DA008DC421 /* SRRunLoopThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B31C5E1CDC444900D86D43 /* SRRunLoopThread.m */; };
+		2543B7B722B2E7E1008DC421 /* SRSIMDHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = F5391CBD1D2F4B4700606A81 /* SRSIMDHelpers.m */; };
+		2543B7B822B2E7EC008DC421 /* SRError.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B22EC41CE42D7E0073C636 /* SRError.m */; };
+		2543B7B922B2E823008DC421 /* SRConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FE7251D497D720085FDA5 /* SRConstants.m */; };
+		2543B7BA22B2E83E008DC421 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A12CD51451231B00C1D980 /* CFNetwork.framework */; };
+		2543B7BB22B2E846008DC421 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A12CD3145122FC00C1D980 /* Security.framework */; };
+		2543B7BC22B2E850008DC421 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B208301450F597009315AF /* Foundation.framework */; };
+		2543B7BD22B2E8DD008DC421 /* NSRunLoop+SRWebSocket.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81CD05FB1CEEC65D00497F47 /* NSRunLoop+SRWebSocket.h */; };
+		2543B7BE22B2E8EC008DC421 /* NSURLRequest+SRWebSocket.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81CD05D51CEEC47300497F47 /* NSURLRequest+SRWebSocket.h */; };
+		2543B7BF22B2E8F3008DC421 /* SRSecurityPolicy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 454A02D41D0FAD010060DFB2 /* SRSecurityPolicy.h */; };
+		2543B7C022B2E8F9008DC421 /* SRWebSocket.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F6A12CCF145119B700C1D980 /* SRWebSocket.h */; };
+		2543B7CA22B2F592008DC421 /* SRHTTPConnectMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C22BC11D124168007BFDDF /* SRHTTPConnectMessage.m */; };
+		2543B7CB22B2F62A008DC421 /* NSURLRequest+SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CD05D61CEEC47300497F47 /* NSURLRequest+SRWebSocket.m */; };
+		2543B7CE22B2F6E6008DC421 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A12CD0145119B700C1D980 /* SRWebSocket.m */; };
+		2543B7CF22B2F6E6008DC421 /* NSRunLoop+SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CD05FC1CEEC65D00497F47 /* NSRunLoop+SRWebSocket.m */; };
+		2543B7D022B2F6E6008DC421 /* NSURLRequest+SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CD05D61CEEC47300497F47 /* NSURLRequest+SRWebSocket.m */; };
+		2543B7D122B2F6E6008DC421 /* SRSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 454FEA831D25717C00073768 /* SRSecurityPolicy.m */; };
+		2543B7D222B2F6E6008DC421 /* SRPinningSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 454FEA7A1D2570D400073768 /* SRPinningSecurityPolicy.m */; };
+		2543B7D322B2F6E6008DC421 /* SRProxyConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4861E7741D022211002FAB1D /* SRProxyConnect.m */; };
+		2543B7D422B2F6E6008DC421 /* SRDelegateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 817995851CE139700084DA37 /* SRDelegateController.m */; };
+		2543B7D522B2F6E6008DC421 /* SRIOConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B31C101CDC404100D86D43 /* SRIOConsumer.m */; };
+		2543B7D622B2F6E6008DC421 /* SRHTTPConnectMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C22BC11D124168007BFDDF /* SRHTTPConnectMessage.m */; };
+		2543B7D722B2F6E6008DC421 /* SRIOConsumerPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B31C121CDC404100D86D43 /* SRIOConsumerPool.m */; };
+		2543B7D822B2F6E6008DC421 /* SRURLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B22EE31CE43ECC0073C636 /* SRURLUtilities.m */; };
+		2543B7D922B2F6E6008DC421 /* SRRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C22BF71D1256E1007BFDDF /* SRRandom.m */; };
+		2543B7DA22B2F6E6008DC421 /* SRLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 81900A4B1D18C9CC0015A290 /* SRLog.m */; };
+		2543B7DB22B2F6E6008DC421 /* SRMutex.m in Sources */ = {isa = PBXBuildFile; fileRef = 817491A71D1C8C33006E09DF /* SRMutex.m */; };
+		2543B7DC22B2F6E6008DC421 /* SRHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B31C2C1CDC406B00D86D43 /* SRHash.m */; };
+		2543B7DD22B2F6E6008DC421 /* SRRunLoopThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B31C5E1CDC444900D86D43 /* SRRunLoopThread.m */; };
+		2543B7DE22B2F6E6008DC421 /* SRError.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B22EC41CE42D7E0073C636 /* SRError.m */; };
+		2543B7DF22B2F6E6008DC421 /* SRConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 815FE7251D497D720085FDA5 /* SRConstants.m */; };
+		2543B7E022B2F6E6008DC421 /* SRSIMDHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = F5391CBD1D2F4B4700606A81 /* SRSIMDHelpers.m */; };
+		2543B7E222B2F6E6008DC421 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B208301450F597009315AF /* Foundation.framework */; };
+		2543B7E322B2F6E6008DC421 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A12CD3145122FC00C1D980 /* Security.framework */; };
+		2543B7E422B2F6E6008DC421 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A12CD51451231B00C1D980 /* CFNetwork.framework */; };
+		2543B7E622B2F6E6008DC421 /* SocketRocket.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2543B7A122B2E646008DC421 /* SocketRocket.h */; };
+		2543B7E722B2F6E6008DC421 /* NSRunLoop+SRWebSocket.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81CD05FB1CEEC65D00497F47 /* NSRunLoop+SRWebSocket.h */; };
+		2543B7E822B2F6E6008DC421 /* NSURLRequest+SRWebSocket.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 81CD05D51CEEC47300497F47 /* NSURLRequest+SRWebSocket.h */; };
+		2543B7E922B2F6E6008DC421 /* SRSecurityPolicy.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 454A02D41D0FAD010060DFB2 /* SRSecurityPolicy.h */; };
+		2543B7EA22B2F6E6008DC421 /* SRWebSocket.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F6A12CCF145119B700C1D980 /* SRWebSocket.h */; };
 		2D42277F1BB4365C000C1A6C /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = F6A12CCF145119B700C1D980 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D4227801BB43693000C1A6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B208301450F597009315AF /* Foundation.framework */; };
 		2D4227831BB436B1000C1A6C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A12CD3145122FC00C1D980 /* Security.framework */; };
@@ -235,6 +290,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		2543B79D22B2E646008DC421 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include;
+			dstSubfolderSpec = 16;
+			files = (
+				2543B7A422B2E646008DC421 /* SocketRocket.h in CopyFiles */,
+				2543B7BD22B2E8DD008DC421 /* NSRunLoop+SRWebSocket.h in CopyFiles */,
+				2543B7BE22B2E8EC008DC421 /* NSURLRequest+SRWebSocket.h in CopyFiles */,
+				2543B7BF22B2E8F3008DC421 /* SRSecurityPolicy.h in CopyFiles */,
+				2543B7C022B2E8F9008DC421 /* SRWebSocket.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2543B7E522B2F6E6008DC421 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include;
+			dstSubfolderSpec = 16;
+			files = (
+				2543B7E622B2F6E6008DC421 /* SocketRocket.h in CopyFiles */,
+				2543B7E722B2F6E6008DC421 /* NSRunLoop+SRWebSocket.h in CopyFiles */,
+				2543B7E822B2F6E6008DC421 /* NSURLRequest+SRWebSocket.h in CopyFiles */,
+				2543B7E922B2F6E6008DC421 /* SRSecurityPolicy.h in CopyFiles */,
+				2543B7EA22B2F6E6008DC421 /* SRWebSocket.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81E8A6A61D4C41E000916C7E /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,6 +332,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2543B75922ADA55C008DC421 /* SocketRocket-iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SocketRocket-iOS copy-Info.plist"; path = "/Users/sumancherukuri/Projects/SocketRocket/SocketRocket-iOS copy-Info.plist"; sourceTree = "<absolute>"; };
+		2543B79622ADF107008DC421 /* SocketRocket-iOS copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SocketRocket-iOS copy2-Info.plist"; path = "/Users/sumancherukuri/Projects/SocketRocket/SocketRocket-iOS copy2-Info.plist"; sourceTree = "<absolute>"; };
+		2543B79F22B2E646008DC421 /* libSocketRocketSim.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSocketRocketSim.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2543B7A122B2E646008DC421 /* SocketRocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketRocket.h; sourceTree = "<group>"; };
+		2543B7A222B2E646008DC421 /* SocketRocket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketRocket.m; sourceTree = "<group>"; };
+		2543B7EE22B2F6E6008DC421 /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4227621BB4358C000C1A6C /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3345DC901C52ACD70083CCB8 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		454A02D41D0FAD010060DFB2 /* SRSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRSecurityPolicy.h; path = SocketRocket/SRSecurityPolicy.h; sourceTree = SOURCE_ROOT; };
@@ -304,18 +393,6 @@
 		81CD05D61CEEC47300497F47 /* NSURLRequest+SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+SRWebSocket.m"; sourceTree = "<group>"; };
 		81CD05FB1CEEC65D00497F47 /* NSRunLoop+SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSRunLoop+SRWebSocket.h"; sourceTree = "<group>"; };
 		81CD05FC1CEEC65D00497F47 /* NSRunLoop+SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSRunLoop+SRWebSocket.m"; sourceTree = "<group>"; };
-		81D6474A1D2CA6A100690609 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		81D6474C1D2CA6A100690609 /* iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = iOS.xcconfig; sourceTree = "<group>"; };
-		81D6474D1D2CA6A100690609 /* macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = macOS.xcconfig; sourceTree = "<group>"; };
-		81D6474E1D2CA6A100690609 /* tvOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = tvOS.xcconfig; sourceTree = "<group>"; };
-		81D6474F1D2CA6A100690609 /* watchOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = watchOS.xcconfig; sourceTree = "<group>"; };
-		81D647511D2CA6A100690609 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
-		81D647521D2CA6A100690609 /* DynamicFramework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DynamicFramework.xcconfig; sourceTree = "<group>"; };
-		81D647531D2CA6A100690609 /* LogicTests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = LogicTests.xcconfig; sourceTree = "<group>"; };
-		81D647541D2CA6A100690609 /* StaticFramework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticFramework.xcconfig; sourceTree = "<group>"; };
-		81D647561D2CA6A100690609 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		81D647571D2CA6A100690609 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		81D647581D2CA6A100690609 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
 		81D647591D2CA6A100690609 /* SocketRocket-iOS-Dynamic.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SocketRocket-iOS-Dynamic.xcconfig"; sourceTree = "<group>"; };
 		81D6475A1D2CA6A100690609 /* SocketRocket-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SocketRocket-iOS.xcconfig"; sourceTree = "<group>"; };
 		81D6475B1D2CA6A100690609 /* SocketRocket-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "SocketRocket-macOS.xcconfig"; sourceTree = "<group>"; };
@@ -348,6 +425,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2543B79C22B2E646008DC421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2543B7BC22B2E850008DC421 /* Foundation.framework in Frameworks */,
+				2543B7BB22B2E846008DC421 /* Security.framework in Frameworks */,
+				2543B7BA22B2E83E008DC421 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2543B7E122B2F6E6008DC421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2543B7E222B2F6E6008DC421 /* Foundation.framework in Frameworks */,
+				2543B7E322B2F6E6008DC421 /* Security.framework in Frameworks */,
+				2543B7E422B2F6E6008DC421 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2D42275E1BB4358C000C1A6C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,6 +471,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2543B72422ADA32A008DC421 /* CFNetwork.framework in Frameworks */,
 				81D647741D2CA78800690609 /* Security.framework in Frameworks */,
 				81D647751D2CA78800690609 /* Foundation.framework in Frameworks */,
 			);
@@ -417,6 +515,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2543B7A022B2E646008DC421 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				2543B7A122B2E646008DC421 /* SocketRocket.h */,
+				2543B7A222B2E646008DC421 /* SocketRocket.m */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
 		4861E7721D022211002FAB1D /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
@@ -590,52 +697,8 @@
 				81D6475C1D2CA6A100690609 /* SocketRocket-tvOS.xcconfig */,
 				81D6475D1D2CA6A100690609 /* SocketRocketTests-iOS.xcconfig */,
 				81E8A69A1D4C417A00916C7E /* TestChat-iOS.xcconfig */,
-				81D647491D2CA6A100690609 /* Shared */,
 			);
 			path = Configurations;
-			sourceTree = "<group>";
-		};
-		81D647491D2CA6A100690609 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				81D6474A1D2CA6A100690609 /* Common.xcconfig */,
-				81D6474B1D2CA6A100690609 /* Platform */,
-				81D647501D2CA6A100690609 /* Product */,
-				81D647551D2CA6A100690609 /* Project */,
-				81D647581D2CA6A100690609 /* Warnings.xcconfig */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
-		81D6474B1D2CA6A100690609 /* Platform */ = {
-			isa = PBXGroup;
-			children = (
-				81D6474C1D2CA6A100690609 /* iOS.xcconfig */,
-				81D6474D1D2CA6A100690609 /* macOS.xcconfig */,
-				81D6474E1D2CA6A100690609 /* tvOS.xcconfig */,
-				81D6474F1D2CA6A100690609 /* watchOS.xcconfig */,
-			);
-			path = Platform;
-			sourceTree = "<group>";
-		};
-		81D647501D2CA6A100690609 /* Product */ = {
-			isa = PBXGroup;
-			children = (
-				81D647511D2CA6A100690609 /* Application.xcconfig */,
-				81D647521D2CA6A100690609 /* DynamicFramework.xcconfig */,
-				81D647531D2CA6A100690609 /* LogicTests.xcconfig */,
-				81D647541D2CA6A100690609 /* StaticFramework.xcconfig */,
-			);
-			path = Product;
-			sourceTree = "<group>";
-		};
-		81D647551D2CA6A100690609 /* Project */ = {
-			isa = PBXGroup;
-			children = (
-				81D647561D2CA6A100690609 /* Debug.xcconfig */,
-				81D647571D2CA6A100690609 /* Release.xcconfig */,
-			);
-			path = Project;
 			sourceTree = "<group>";
 		};
 		F62417EA14D52F3C003CE997 /* TestChat */ = {
@@ -671,8 +734,11 @@
 				F6B208321450F597009315AF /* SocketRocket */,
 				8105E4741CDD679A00AA12DB /* Tests */,
 				F62417EA14D52F3C003CE997 /* TestChat */,
+				2543B7A022B2E646008DC421 /* SocketRocket */,
 				F6B2082F1450F597009315AF /* Frameworks */,
 				F6B2082E1450F597009315AF /* Products */,
+				2543B75922ADA55C008DC421 /* SocketRocket-iOS copy-Info.plist */,
+				2543B79622ADF107008DC421 /* SocketRocket-iOS copy2-Info.plist */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -687,6 +753,8 @@
 				2D4227621BB4358C000C1A6C /* SocketRocket.framework */,
 				3345DC901C52ACD70083CCB8 /* SocketRocket.framework */,
 				81D6478D1D2CA78800690609 /* SocketRocket.framework */,
+				2543B79F22B2E646008DC421 /* libSocketRocketSim.a */,
+				2543B7EE22B2F6E6008DC421 /* libSocketRocket.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -844,6 +912,40 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2543B79E22B2E646008DC421 /* SocketRocketSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2543B7A722B2E646008DC421 /* Build configuration list for PBXNativeTarget "SocketRocketSim" */;
+			buildPhases = (
+				2543B79B22B2E646008DC421 /* Sources */,
+				2543B79C22B2E646008DC421 /* Frameworks */,
+				2543B79D22B2E646008DC421 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocketSim;
+			productName = SocketRocket;
+			productReference = 2543B79F22B2E646008DC421 /* libSocketRocketSim.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2543B7CC22B2F6E6008DC421 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2543B7EB22B2F6E6008DC421 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				2543B7CD22B2F6E6008DC421 /* Sources */,
+				2543B7E122B2F6E6008DC421 /* Frameworks */,
+				2543B7E522B2F6E6008DC421 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = 2543B7EE22B2F6E6008DC421 /* libSocketRocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		2D4227611BB4358C000C1A6C /* SocketRocket-iOS-Dynamic */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D4227671BB4358C000C1A6C /* Build configuration list for PBXNativeTarget "SocketRocket-iOS-Dynamic" */;
@@ -958,12 +1060,24 @@
 			attributes = {
 				LastTestingUpgradeCheck = 0640;
 				LastUpgradeCheck = 0800;
+				TargetAttributes = {
+					2543B79E22B2E646008DC421 = {
+						CreatedOnToolsVersion = 10.2.1;
+						DevelopmentTeam = U96363L4E2;
+						ProvisioningStyle = Automatic;
+					};
+					2543B7CC22B2F6E6008DC421 = {
+						DevelopmentTeam = U96363L4E2;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = F6B208271450F597009315AF /* Build configuration list for PBXProject "SocketRocket" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = F6B208221450F597009315AF;
@@ -977,6 +1091,8 @@
 				3345DC821C52ACD70083CCB8 /* SocketRocket-tvOS */,
 				F6BDA801145900D200FE3253 /* SocketRocketTests-iOS */,
 				F62417E214D52F3C003CE997 /* TestChat */,
+				2543B79E22B2E646008DC421 /* SocketRocketSim */,
+				2543B7CC22B2F6E6008DC421 /* SocketRocket */,
 			);
 		};
 /* End PBXProject section */
@@ -1003,6 +1119,58 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2543B79B22B2E646008DC421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2543B7AA22B2E713008DC421 /* SRWebSocket.m in Sources */,
+				2543B7AB22B2E723008DC421 /* NSRunLoop+SRWebSocket.m in Sources */,
+				2543B7CB22B2F62A008DC421 /* NSURLRequest+SRWebSocket.m in Sources */,
+				2543B7A922B2E707008DC421 /* SRSecurityPolicy.m in Sources */,
+				2543B7AC22B2E75D008DC421 /* SRPinningSecurityPolicy.m in Sources */,
+				2543B7AD22B2E768008DC421 /* SRProxyConnect.m in Sources */,
+				2543B7AE22B2E774008DC421 /* SRDelegateController.m in Sources */,
+				2543B7AF22B2E782008DC421 /* SRIOConsumer.m in Sources */,
+				2543B7CA22B2F592008DC421 /* SRHTTPConnectMessage.m in Sources */,
+				2543B7B122B2E7AC008DC421 /* SRIOConsumerPool.m in Sources */,
+				2543B7B022B2E7A3008DC421 /* SRURLUtilities.m in Sources */,
+				2543B7B222B2E7B6008DC421 /* SRRandom.m in Sources */,
+				2543B7B322B2E7BE008DC421 /* SRLog.m in Sources */,
+				2543B7B422B2E7C3008DC421 /* SRMutex.m in Sources */,
+				2543B7B522B2E7CA008DC421 /* SRHash.m in Sources */,
+				2543B7B622B2E7DA008DC421 /* SRRunLoopThread.m in Sources */,
+				2543B7B822B2E7EC008DC421 /* SRError.m in Sources */,
+				2543B7B922B2E823008DC421 /* SRConstants.m in Sources */,
+				2543B7B722B2E7E1008DC421 /* SRSIMDHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2543B7CD22B2F6E6008DC421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2543B7CE22B2F6E6008DC421 /* SRWebSocket.m in Sources */,
+				2543B7CF22B2F6E6008DC421 /* NSRunLoop+SRWebSocket.m in Sources */,
+				2543B7D022B2F6E6008DC421 /* NSURLRequest+SRWebSocket.m in Sources */,
+				2543B7D122B2F6E6008DC421 /* SRSecurityPolicy.m in Sources */,
+				2543B7D222B2F6E6008DC421 /* SRPinningSecurityPolicy.m in Sources */,
+				2543B7D322B2F6E6008DC421 /* SRProxyConnect.m in Sources */,
+				2543B7D422B2F6E6008DC421 /* SRDelegateController.m in Sources */,
+				2543B7D522B2F6E6008DC421 /* SRIOConsumer.m in Sources */,
+				2543B7D622B2F6E6008DC421 /* SRHTTPConnectMessage.m in Sources */,
+				2543B7D722B2F6E6008DC421 /* SRIOConsumerPool.m in Sources */,
+				2543B7D822B2F6E6008DC421 /* SRURLUtilities.m in Sources */,
+				2543B7D922B2F6E6008DC421 /* SRRandom.m in Sources */,
+				2543B7DA22B2F6E6008DC421 /* SRLog.m in Sources */,
+				2543B7DB22B2F6E6008DC421 /* SRMutex.m in Sources */,
+				2543B7DC22B2F6E6008DC421 /* SRHash.m in Sources */,
+				2543B7DD22B2F6E6008DC421 /* SRRunLoopThread.m in Sources */,
+				2543B7DE22B2F6E6008DC421 /* SRError.m in Sources */,
+				2543B7DF22B2F6E6008DC421 /* SRConstants.m in Sources */,
+				2543B7E022B2F6E6008DC421 /* SRSIMDHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2D42275D1BB4358C000C1A6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1169,6 +1337,273 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2543B7A522B2E646008DC421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SocketRocket";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U96363L4E2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = iphonesimulator;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		2543B7A622B2E646008DC421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SocketRocket";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = U96363L4E2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = iphonesimulator;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		2543B7EC22B2F6E6008DC421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+					armv7,
+					arm64e,
+					armv7s,
+				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SocketRocket";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = U96363L4E2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2543B7ED22B2F6E6008DC421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+					armv7,
+					arm64e,
+					armv7s,
+				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SocketRocket";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = U96363L4E2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		2D4227681BB4358C000C1A6C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D647591D2CA6A100690609 /* SocketRocket-iOS-Dynamic.xcconfig */;
@@ -1207,6 +1642,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D6475A1D2CA6A100690609 /* SocketRocket-iOS.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -1214,6 +1652,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D6475A1D2CA6A100690609 /* SocketRocket-iOS.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -1249,15 +1690,15 @@
 		};
 		F6B208381450F597009315AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81D647561D2CA6A100690609 /* Debug.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
 		F6B208391450F597009315AF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81D647571D2CA6A100690609 /* Release.xcconfig */;
 			buildSettings = {
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -1278,6 +1719,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2543B7A722B2E646008DC421 /* Build configuration list for PBXNativeTarget "SocketRocketSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2543B7A522B2E646008DC421 /* Debug */,
+				2543B7A622B2E646008DC421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2543B7EB22B2F6E6008DC421 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2543B7EC22B2F6E6008DC421 /* Debug */,
+				2543B7ED22B2F6E6008DC421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D4227671BB4358C000C1A6C /* Build configuration list for PBXNativeTarget "SocketRocket-iOS-Dynamic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

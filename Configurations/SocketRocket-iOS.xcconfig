@@ -7,12 +7,9 @@
 // of patent rights can be found in the PATENTS file in the same directory.
 //
 
-#include "Shared/Platform/iOS.xcconfig"
-#include "Shared/Product/StaticFramework.xcconfig"
-
 PRODUCT_NAME = SocketRocket
 PRODUCT_BUNDLE_IDENTIFIER = com.facebook.socketrocket.ios
-IPHONEOS_DEPLOYMENT_TARGET = 6.0
+IPHONEOS_DEPLOYMENT_TARGET = 10.0
 
 INFOPLIST_FILE = $(SRCROOT)/SocketRocket/Resources/Info.plist
 

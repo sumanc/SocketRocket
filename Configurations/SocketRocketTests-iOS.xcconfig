@@ -7,9 +7,6 @@
 // of patent rights can be found in the PATENTS file in the same directory.
 //
 
-#include "Shared/Platform/iOS.xcconfig"
-#include "Shared/Product/LogicTests.xcconfig"
-
 PRODUCT_NAME = SocketRocketTests-iOS
 PRODUCT_MODULE_NAME = SocketRocketTests
 PRODUCT_BUNDLE_IDENTIFIER = com.facebook.socketrocket.tests.ios

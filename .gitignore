@@ -24,3 +24,5 @@ DerivedData
 extern/
 
 *.pyc
+Index
+out
